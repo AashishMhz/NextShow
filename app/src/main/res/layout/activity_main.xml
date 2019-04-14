@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/AppTheme"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="Type and Run"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="Make:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/make"
+        style="@style/AppTheme"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="Year:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/year"
+        style="@style/AppTheme"
+        android:inputType="number"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="Color:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/color"
+        style="@style/AppTheme"
+        android:inputType="text"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="Purchased Price:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/price"
+        style="@style/AppTheme"
+        android:inputType="number"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        style="@style/AppTheme"
+        android:hint="EngineSize (liter):"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/engineSize"
+        style="@style/AppTheme"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Car"
+        android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/res"
+            style="@style/AppTheme"
+            android:background="#33A3FF"/>
+
+
+</LinearLayout>
+</ScrollView>
